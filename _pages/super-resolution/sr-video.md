@@ -19,8 +19,9 @@ __[▶ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0
 *Ruisheng Gao, Zeyu Xiao, Zhiwei Xiong* <br>
 <span><pub>British Machine Vision Conference (BMVC), 2022</pub></span> <br>
 [Paper](https://bmvc2022.mpi-inf.mpg.de/0060.pdf){:target="_blank"} |
+[Code](https://github.com/RSGao/DFlow_BasicSR){:target="_blank"} |
 <a onclick='expandABS("gao22")'> Abstract </a>
-<div style="display: none;" class=abs id="gao22"><br>
+<div style="display: none;" class=abs id="gao22"><br>RSGao/FDFlow_BasicSR
 Recent years have witnessed the advancement of video super-resolution (VSR) with elaborately-designed multi-frame alignment and space-time fusion/refinement techniques. However, both techniques require heavy computational burden and memory consumption, hindering existing VSR networks from being deployed on resource-constrained platforms (e.g., smartphones and wearable devices). In this paper, we propose an efficient and lightweight VSR network with two special designs. First, we propose a novelmotion propagation scheme which propagates difference flowsfor efficient feature alignment. The difference flow is sparse and computational-friendly which focuses on texture details. After estimating the preliminary difference flow with an initial motion estimator, we then design an adaptive motion modification module for frame-pair wise adaptation through bidirectional propagation. Second, a dense feature distillation module is designed for further refining the aligned features efficiently. Thanks to both designs, ournetwork achieves comparable performance with state-of-the-art VSR methods while enjoying a clear advantage in model size and computational efficiency
 </div>
 
