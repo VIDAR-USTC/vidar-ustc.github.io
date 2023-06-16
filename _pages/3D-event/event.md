@@ -54,6 +54,7 @@ We consider the problem of event-assisted video frame interpolation (VFI), a new
 *Wenming Weng, Yueyi Zhang, Zhiwei Xiong* <br>
 <span><pub>European Conference on Computer Vision (ECCV), 2022</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-20068-7_27){:target="_blank"} |
+[Code](https://github.com/WarranWeng/ESR){:target="_blank"} |
 <a onclick='expandABS("weng22")'> Abstract </a>
 <div style="display: none;" class=abs id="weng22"><br>
 Existing methods for event stream super-resolution (SR) either require high-quality and high-resolution frames or underperform for large factor SR. To address these problems, we propose a recurrent neural network for event SR without frames. First, we design a temporal propagation net for incorporating neighboring and long-range event-aware contexts that facilitates event SR. Second, we build a spatiotemporal fusion net for reliably aggregating the spatiotemporal clues of event stream. These two elaborate components are tightly synergized for achieving satisfying event SR results even for 16×
