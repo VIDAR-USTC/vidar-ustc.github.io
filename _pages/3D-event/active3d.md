@@ -17,6 +17,16 @@ __[▶ Point Cloud](/3D-event/point-cloud){: style="color: rgb(191, 0, 0)"}__
 
 ## Active 3D
 
+**Self-distilled Depth from Single-shot Structured Light with Intensity Reconstruction** <br>
+*Yue Li, Jiayong Peng, Yueyi Zhang, Zhiwei Xiong* <br>
+<span><pub>IEEE Transactions on Computational Imaging (T-CI), 2023, Early Access</pub></span> <br>
+[Paper](https://ieeexplore.ieee.org/document/10163879){:target="_blank"} |
+<a onclick='expandABS("li23tci")'> Abstract </a>
+<div style="display: none;" class=abs id="li23tci"><br>
+Depth from structured light (SL) is a mainstream approach for 3D acquisition. In this paper, we propose a unique depth reconstruction method for single-shot SL systems, which reconstructs the intensity image of the scene simultaneously. The merits of our method are twofold. First, the intensity image can be used to extract scene textures under ambient light from the captured image, parsing out the projected SL pattern and thus improving depth reconstruction performance. Second, the intensity information of the scene can be useful in many applications when additional RGB cameras are not available along with the SL system. The proposed method is realized by a dual-branch deep neural network for recovering depth and intensity, respectively, where the intermediate output of the intensity branch is fed into the depth branch. Specifically, we introduce a self-distillation strategy to facilitate training the network in an unsupervised manner.
+
+</div>
+
 **Boosting Photon-Efficient Image Reconstruction With A Unified Deep Neural Network** <br>
 *Jiayong Peng, Zhiwei Xiong, Hao Tan, Xin Huang, Zheng-Ping Li, Feihu Xu* <br>
 <span><pub>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2023</pub></span> <br>
@@ -32,10 +42,10 @@ Photon-efficient imaging, which captures 3D images with single-photon sensors, h
 *Yue Li, Jiayong Peng, Juntian Ye, Yueyi Zhang, Feihu Xu, Zhiwei Xiong* <br>
 <span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</pub></span> <br>
 [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Li_NLOST_Non-Line-of-Sight_Imaging_With_Transformer_CVPR_2023_paper.html){:target="_blank"} |
-[Dataset](https://github.com/Depth2World/NLOST){:target="_blank"} |
+[Code & Dataset](https://github.com/Depth2World/NLOST){:target="_blank"} |
 [Intro Video](https://www.youtube.com/watch?v=VrxrRO-KERI){:target="_blank"} |
-<a onclick='expandABS("li23")'> Abstract </a>
-<div style="display: none;" class=abs id="li23"><br>
+<a onclick='expandABS("li23cvpr")'> Abstract </a>
+<div style="display: none;" class=abs id="li23cvpr"><br>
 Time-resolved non-line-of-sight (NLOS) imaging is based on the multi-bounce indirect reflections from the hidden objects for 3D sensing. Reconstruction from NLOS measurements remains challenging especially for complicated scenes. To boost the performance, we present NLOST, the first transformer-based neural network for NLOS reconstruction. Specifically, after extracting the shallow features with the assistance of physics-based priors, we design two spatial-temporal self attention encoders to explore both local and global correlations within 3D NLOS data by splitting or downsampling the features into different scales, respectively. Then, we design a spatial-temporal cross attention decoder to integrate local and global features in the token space of transformer, resulting in deep features with high representation capabilities. Finally, deep and shallow features are fused to reconstruct the 3D volume of hidden scenes. Extensive experimental results demonstrate the superior performance of the proposed method over existing solutions on both synthetic data and real-world data captured by different NLOS imaging systems.
 </div>
 
