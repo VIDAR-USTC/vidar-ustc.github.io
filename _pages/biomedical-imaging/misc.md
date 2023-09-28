@@ -14,6 +14,15 @@ __[▼ Misc.](/biomedical-imaging/misc){: style="color: rgb(191, 0, 0)"}__
 
 ## Misc.
 
+<span><highlighted>(New!)</highlighted></span> **DBVC: An End-to-End 3-D Deep Biomedical Video Coding Framework** <br>
+*Dongmei Xue, Haichuan Ma, Li Li, Dong Liu, Zhiwei Xiong, Houqiang Li* <br>
+<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023, Early Access</pub></span> <br>
+[Paper](https://ieeexplore.ieee.org/abstract/document/10210614){:target="_blank"} |
+<a onclick='expandABS("xue23csvt")'> Abstract </a>
+<div style="display: none;" class=abs id="xue23csvt"><br>
+Biomedical videos require tremendous storage space and transmission bandwidth, so efficient coding methods are urgently required. Existing methods can be roughly divided into motion-based methods and wavelet-based methods. Motion-based methods use motion estimation designed for natural videos and independently optimize prediction, transform, and entropy coding modules. Wavelet-based methods treat the more redundant time dimension exactly the same as other spatial dimensions. They are both unable to completely remove the redundant spatial-temporal information in biomedical videos. In this paper, to address these problems, we build an end-to-end framework named DBVC with 3-D motion estimation, MV coding, 3-D motion compensation, and residual coding networks for efficient 3-D biomedical video coding. First, we propose a simple yet efficient 3-D motion estimation network to extract motion information. Specifically, we obtain the region with the most intense motion by a segmentation network and then perform unsupervised motion estimation exclusively on this region. After that, to encode and decode the estimated motion vectors, we apply a 3-D autoencoder-based MV coding network. Moreover, we use a lossless learnable wavelet transform for residual coding, which makes lossless coding possible. To the best of our knowledge, this is the first end-to-end video coding framework that supports both lossy and lossless coding, thus meeting the requirements of 3-D biomedical video coding. Extensive experiments demonstrate that our framework achieves state-of-the-art performance on both 3-D biological videos and 3-D medical videos.
+</div>
+
 **aiWave: Volumetric Image Compression With 3-D Trained Affine Wavelet-Like Transform** <br>
 *Dongmei Xue, Haichuan Ma, Li Li, Dong Liu, Zhiwei Xiong* <br>
 <span><pub>IEEE Transactions on Medical Imaging (T-MI), 2023</pub></span> <br>

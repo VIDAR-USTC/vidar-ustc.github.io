@@ -16,7 +16,7 @@ __[▶ Misc.](/biomedical-imaging/misc){: style="color: rgb(191, 0, 0)"}__
 
 **Self-Distilled Hierarchical Network for Unsupervised Deformable Image Registration** <br>
 *Shenglong Zhou, Bo Hu, Zhiwei Xiong, Feng Wu* <br>
-<span><pub>IEEE Transactions on Medical Imaging (T-MI), 2023, Early Access</pub></span> <br>
+<span><pub>IEEE Transactions on Medical Imaging (T-MI), 2023</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/abstract/document/10042453){:target="_blank"} |
 [Code](https://github.com/Blcony/SDHNet){:target="_blank"} |
 <a onclick='expandABS("zhou23")'> Abstract </a>

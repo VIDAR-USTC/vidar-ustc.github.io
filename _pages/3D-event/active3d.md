@@ -19,7 +19,7 @@ __[▶ Point Cloud](/3D-event/point-cloud){: style="color: rgb(191, 0, 0)"}__
 
 **Self-distilled Depth from Single-shot Structured Light with Intensity Reconstruction** <br>
 *Yue Li, Jiayong Peng, Yueyi Zhang, Zhiwei Xiong* <br>
-<span><pub>IEEE Transactions on Computational Imaging (T-CI), 2023, Early Access</pub></span> <br>
+<span><pub>IEEE Transactions on Computational Imaging (T-CI), 2023</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/document/10163879){:target="_blank"} |
 <a onclick='expandABS("li23tci")'> Abstract </a>
 <div style="display: none;" class=abs id="li23tci"><br>

@@ -16,6 +16,38 @@ __[▶ Misc.](/biomedical-imaging/misc){: style="color: rgb(191, 0, 0)"}__
 ## Segmentation
 
 
+<span><highlighted>(New!)</highlighted></span> **Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation** <br>
+*Xiaoyu Liu, Wei Huang, Zhiwei Xiong, Shenglong Zhou, Yueyi Zhang, Xuejin Chen, Zheng-Jun Zha, Feng Wu* <br>
+<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Learning_Cross-Representation_Affinity_Consistency_for_Sparsely_Supervised_Biomedical_Instance_Segmentation_ICCV_2023_paper.html){:target="_blank"} |
+[Code](https://github.com/liuxy1103/CRAC){:target="_blank"} |
+<a onclick='expandABS("liu23iccv")'> Abstract </a>
+<div style="display: none;" class=abs id="liu23iccv"><br>
+Sparse instance-level supervision has recently been explored to address insufficient annotation in biomedical instance segmentation, which is easier to annotate crowded instances and better preserves instance completeness for 3D volumetric datasets compared to common semi-supervision.In this paper, we propose a sparsely supervised biomedical instance segmentation framework via cross-representation affinity consistency regularization. Specifically, we adopt two individual networks to enforce the perturbation consistency between an explicit affinity map and an implicit affinity map to capture both feature-level instance discrimination and pixel-level instance boundary structure. We then select the highly confident region of each affinity map as the pseudo label to supervise the other one for affinity consistency learning. To obtain the highly confident region, we propose a pseudo-label noise filtering scheme by integrating two entropy-based decision strategies. Extensive experiments on four biomedical datasets with sparse instance annotations show the state-of-the-art performance of our proposed framework. For the first time, we demonstrate the superiority of sparse instance-level supervision on 3D volumetric datasets, compared to common semi-supervision under the same annotation cost.
+</div>
+
+<span><highlighted>(New!)</highlighted></span> **PCTrans: Position-Guided Transformer with Query Contrast for Biological Instance Segmentation** <br>
+*Qi Chen, Wei Huang, Xiaoyu Liu, Jiacheng Li, Zhiwei Xiong* <br>
+<span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2023</pub></span> <br>
+[Paper](#) |
+[Code](https://github.com/qic999/PCTrans){:target="_blank"}|
+<a onclick='expandABS("chen23iccvw")'> Abstract </a>
+<div style="display: none;" class=abs id="chen23iccvw"><br>
+Recently, query-based transformer gradually draws attention in segmentation tasks due to its powerful ability. Compared to instance segmentation in natural images, biological instance segmentation is more challenging due to high texture similarity, crowded objects and limited annotations. Therefore, it remains a pending issue to extract meaningful queries to model biological instances. In this paper, we analyze the problem when queries meet biological images and propose a novel Position-guided Transformer with query Contrast (PCTrans) for biological instance segmentation. PCTrans tackles the mentioned issue in two ways. First, for high texture similarity and crowded objects, we incorporate position information to guide query learning and mask prediction. This involves considering position similarity when learning queries and designing a dynamic mask head that takes instance position into account. Second, to learn more discriminative representation of the queries under limited annotated data, we further design two contrastive losses, namely Query Embedding Contrastive (QEC) loss and Mask Candidate Contrastive (MCC) loss. Experiments on two representative biological instance segmentation datasets demonstrate the superiority of PCTrans over existing methods.
+
+</div>
+
+
+<span><highlighted>(New!)</highlighted></span> **Self-Supervised Neuron Segmentation with Multi-Agent Reinforcement Learning** <br>
+*Yinda Chen, Wei Huang, Shenglong Zhou, Qi Chen, Zhiwei Xiong* <br>
+<span><pub>International Joint Conference on Artificial Intelligence (IJCAI), 2023</pub></span> <br>
+[Paper](https://www.ijcai.org/proceedings/2023/0068.pdf){:target="_blank"} |
+[Code](https://github.com/ydchen0806/dbMiM){:target="_blank"} |
+<a onclick='expandABS("chen23")'> Abstract </a>
+<div style="display: none;" class=abs id="chen23"><br>
+The performance of existing supervised neuron segmentation methods is highly dependent on the number of accurate annotations, especially when applied to large scale electron microscopy (EM) data. By extracting semantic information from unlabeled data, self-supervised methods can improve the performance of downstream tasks, among which the mask image model (MIM) has been widely used due to its simplicity and effectiveness in recovering original information from masked images. However, due to the high degree of structural locality in EM images, as well as the existence of considerable noise, many voxels contain little discriminative information, making MIM pretraining inefficient on the neuron segmentation task. To overcome this challenge, we propose a decision-based MIM that utilizes reinforcement learning (RL) to automatically search for optimal image masking ratio and masking strategy. Due to the vast exploration space, using single-agent RL for voxel prediction is impractical. Therefore, we treat each input patch as an agent with a shared behavior policy, allowing for multi-agent collaboration. Furthermore, this multi-agent model can capture dependencies between voxels, which is beneficial for the downstream segmentation task. Experiments conducted on representative EM datasets demonstrate that our approach has a significant advantage over alternative self-supervised methods on the task of neuron segmentation. Code is available at https://github.com/ydchen0806/dbMiM.
+</div>
+
 
 **A Soma Segmentation Benchmark in Full Adult Fly Brain** <br>
 *Xiaoyu Liu, Bo Hu, Mingxing Li, Wei Huang, Yueyi Zhang, Zhiwei Xiong* <br>

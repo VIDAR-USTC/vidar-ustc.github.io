@@ -15,6 +15,27 @@ __[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 ## Enhancement & HDR
 
+<span><highlighted>(New!)</highlighted></span> **Mutual-Guided Dynamic Network for Image Fusion** <br>
+*Yuanshen Guan, Ruikang Xu, Mingde Yao, Lizhi Wang, Zhiwei Xiong* <br>
+<span><pub>ACM International Conference on Multimedia (MM), 2023</pub></span> <br> 
+[Paper](https://arxiv.org/abs/2308.12538){:target="_blank"} |
+[Code](https://github.com/Guanys-dar/MGDN){:target="_blank"} |
+<a onclick='expandABS("guan23")'> Abstract </a>
+<div style="display: none;" class=abs id="guan23"><br>
+Image fusion aims to generate a high-quality image from multiple images captured under varying conditions. The key problem of this task is to preserve complementary information while filtering out irrelevant information for the fused result. However, existing methods address this problem by leveraging static convolutional neural networks (CNNs), suffering two inherent limitations during feature extraction, i.e., being unable to handle spatial-variant contents and lacking guidance from multiple inputs. In this paper, we propose a novel mutual-guided dynamic network (MGDN) for image fusion, which allows for effective information utilization across different locations and inputs. Specifically, we design a mutual-guided dynamic filter (MGDF) for adaptive feature extraction, composed of a mutual-guided cross-attention (MGCA) module and a dynamic filter predictor, where the former incorporates additional guidance from different inputs and the latter generates spatial-variant kernels for different locations. In addition, we introduce a parallel feature fusion (PFF) module to effectively fuse local and global information of the extracted features. To further reduce the redundancy among the extracted features while simultaneously preserving their shared structural information, we devise a novel loss function that combines the minimization of normalized mutual information (NMI) with an estimated gradient mask. Experimental results on five benchmark datasets demonstrate that our proposed method outperforms existing methods on four image fusion tasks. The code and model are publicly available at: https://github.com/Guanys-dar/MGDN.
+</div>
+
+<span><highlighted>(New!)</highlighted></span> **Generalized Lightness Adaptation with Channel Selective Normalization** <br>
+*Mingde Yao, Jie Huang, Xin Jin, Ruikang Xu, Shenglong Zhou, Man Zhou, Zhiwei Xiong* <br>
+<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Yao_Generalized_Lightness_Adaptation_with_Channel_Selective_Normalization_ICCV_2023_paper.html){:target="_blank"} |
+[Code](https://github.com/mdyao/CSNorm){:target="_blank"} |
+<a onclick='expandABS("yao23")'> Abstract </a>
+<div style="display: none;" class=abs id="yao23"><br>
+Lightness adaptation is vital to the success of image processing to avoid unexpected visual deterioration, which covers multiple aspects, e.g., low-light image enhancement, image retouching, and inverse tone mapping. Existing methods typically work well on their trained lightness conditions but perform poorly in unknown ones due to their limited generalization ability. To address this limitation, we propose a novel generalized lightness adaptation algorithm that extends conventional normalization techniques through a channel filtering design, dubbed Channel Selective Normalization (CSNorm). The proposed CSNorm purposely normalizes the statistics of lightness-relevant channels and keeps other channels unchanged, so as to improve feature generalization and discrimination. To optimize CSNorm, we propose an alternating training strategy that effectively identifies lightness-relevant channels. The model equipped with our CSNorm only needs to be trained on one lightness condition and can be well generalized to unknown lightness conditions. Experimental results on multiple benchmark datasets demonstrate the effectiveness of CSNorm in enhancing the generalization ability for the existing lightness adaptation methods. Code is available at https://github.com/mdyao/CSNorm.
+</div>
+
+
 **Region-Aware Portrait Retouching with Sparse Interactive Guidance** <br>
 *Huimin Zeng, Jie Huang, Jiacheng Li, Zhiwei Xiong* <br>
 <span><pub>IEEE Transactions on Multimedia (T-MM), 2023, Early Access</pub></span> <br>

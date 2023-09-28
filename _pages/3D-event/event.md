@@ -14,6 +14,17 @@ __[▶ Point Cloud](/3D-event/point-cloud){: style="color: rgb(191, 0, 0)"}__
 
 ## Event
 
+
+<span><highlighted>(New!)</highlighted></span> **Unsupervised Video Deraining with An Event Camera** <br>
+*Jin Wang, Wenming Weng, Yueyi Zhang, Zhiwei Xiong* <br>
+<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Unsupervised_Video_Deraining_with_An_Event_Camera_ICCV_2023_paper.html){:target="_blank"} |
+[Code](https://github.com/booker-max/Unsupervised-Deraining-with-Event-Camera){:target="_blank"} |
+<a onclick='expandABS("wang23")'> Abstract </a>
+<div style="display: none;" class=abs id="wang23"><br>
+Current unsupervised video deraining methods are inefficient in modeling the intricate spatio-temporal properties of rain, which leads to unsatisfactory results. In this paper, we propose a novel approach by integrating a bio-inspired event camera into the unsupervised video deraining pipeline, which enables us to capture high temporal resolution information and model complex rain characteristics. Specifically, we first design an end-to-end learning-based network consisting of two modules, the asymmetric separation module and the cross-modal fusion module. The two modules are responsible for segregating the features of the rain-background layer, and for positive enhancement and negative suppression from a cross-modal perspective, respectively. Second, to regularize the network training, we elaborately design a cross-modal contrastive learning method that leverages the complementary information from event cameras, exploring the mutual exclusion and similarity of rain-background layers in different domains. This encourages the deraining network to focus on the distinctive characteristics of each layer and learn a more discriminative representation. Moreover, we construct the first real-world dataset comprising rainy videos and events using a hybrid imaging system. Extensive experiments demonstrate the superior performance of our method on both synthetic and real-world datasets.
+</div>
+
 **Event-Based Blurry Frame Interpolation Under Blind Exposure** <br>
 *Wenming Weng, Yueyi Zhang, Zhiwei Xiong* <br>
 <span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</pub></span> <br>

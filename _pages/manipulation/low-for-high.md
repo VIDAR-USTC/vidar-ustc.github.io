@@ -15,6 +15,16 @@ __[▼ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 ## Low-Level For High-Level
 
+<span><highlighted>(New!)</highlighted></span> **Learning Fine-Grained Features for Pixel-Wise Video Correspondences** <br>
+*Rui Li, Shenglong Zhou, Dong Liu* <br>
+<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Learning_Fine-Grained_Features_for_Pixel-Wise_Video_Correspondences_ICCV_2023_paper.html){:target="_blank"} |
+[Code](https://github.com/qianduoduolr/FGVC){:target="_blank"} |
+<a onclick='expandABS("li23iccv")'> Abstract </a>
+<div style="display: none;" class=abs id="li23iccv"><br>
+Video analysis tasks rely heavily on identifying the pixels from different frames that correspond to the same visual target. To tackle this problem, recent studies have advocated feature learning methods that aim to learn distinctive representations to match the pixels, especially in a self-supervised fashion. Unfortunately, these methods have difficulties for tiny or even single-pixel visual targets. Pixel-wise video correspondences were traditionally related to optical flows, which however lead to deterministic correspondences and lack robustness on real-world videos. We address the problem of learning features for establishing pixel-wise correspondences. Motivated by optical flows as well as the self-supervised feature learning, we propose to use not only labeled synthetic videos but also unlabeled real-world videos for learning fine-grained representations in a holistic framework. We adopt an adversarial learning scheme to enhance the generalization ability of the learned features. Moreover, we design a coarse-to-fine framework to pursue high computational efficiency. Our experimental results on a series of correspondence-based tasks demonstrate that the proposed method outperforms state-of-the-art rivals in both accuracy and efficiency.
+</div>
+
 
 
 **Synergy Between Semantic Segmentation and Image Denoising via Alternate Boosting** <br>
