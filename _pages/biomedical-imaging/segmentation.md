@@ -30,7 +30,7 @@ Sparse instance-level supervision has recently been explored to address insuffic
 *Qi Chen, Wei Huang, Xiaoyu Liu, Jiacheng Li, Zhiwei Xiong* <br>
 <span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2023</pub></span> <br>
 [Paper](#) |
-[Code](https://github.com/qic999/PCTrans){:target="_blank"}|
+[Code](https://github.com/qic999/PCTrans){:target="_blank"} |
 <a onclick='expandABS("chen23iccvw")'> Abstract </a>
 <div style="display: none;" class=abs id="chen23iccvw"><br>
 Recently, query-based transformer gradually draws attention in segmentation tasks due to its powerful ability. Compared to instance segmentation in natural images, biological instance segmentation is more challenging due to high texture similarity, crowded objects and limited annotations. Therefore, it remains a pending issue to extract meaningful queries to model biological instances. In this paper, we analyze the problem when queries meet biological images and propose a novel Position-guided Transformer with query Contrast (PCTrans) for biological instance segmentation. PCTrans tackles the mentioned issue in two ways. First, for high texture similarity and crowded objects, we incorporate position information to guide query learning and mask prediction. This involves considering position similarity when learning queries and designing a dynamic mask head that takes instance position into account. Second, to learn more discriminative representation of the queries under limited annotated data, we further design two contrastive losses, namely Query Embedding Contrastive (QEC) loss and Mask Candidate Contrastive (MCC) loss. Experiments on two representative biological instance segmentation datasets demonstrate the superiority of PCTrans over existing methods.
