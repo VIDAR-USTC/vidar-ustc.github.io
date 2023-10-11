@@ -15,6 +15,17 @@ __[▼ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0
 
 ## Light Field
 
+
+<span><highlighted>(New!)</highlighted></span> **Light Field Super-Resolution Using Decoupled Selective Matching** <br>
+*Yutong Liu, Zhen Cheng, Zeyu Xiao, Zhiwei Xiong* <br>
+<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023, Early Access</pub></span> <br>
+[Paper](https://ieeexplore.ieee.org/abstract/document/10268449){:target="_blank"} |
+<a onclick='expandABS("liu23")'> Abstract </a>
+<div style="display: none;" class=abs id="liu23"><br>
+Non-local self-similarity has been well exploited in the single image super-resolution task as an effective prior. However, due to the difficulty of modeling the 4D correspondence globally, the potential of the non-local prior is less revealed for light field (LF) super-resolution. Meanwhile, existing non-local models only utilize the global spatial correspondence, but largely neglect the global geometric correspondence. To address the aforementioned problems, we propose a Decoupled Selective Matching Network (DSMNet) for LF super-resolution, by designing a novel selective matching mechanism to flexibly extract non-local information from specific 4D positions in an LF. Such a mechanism matches the reference patch with several auxiliary patches dynamically searched from predefined windows, which promotes efficiency while improving performance compared to the existing non-local models. Specifically, our DSMNet decouples the whole LF into Sub-Aperture Images (SAIs) and Epipolar Plane Images (EPIs). For each SAI patch, we separately perform the selective matching inside the current SAI and cross different SAIs to exploit the global spatial correspondence efficiently. For each EPI patch, we separately perform the selective matching in EPIs of different orientations to embed robust LF geometric information into features by enhancing EPI textures, which exploits the global geometric correspondence in an efficient manner. Comprehensive experiments validate that DSMNet outperforms state-of-the-art LF super-resolution methods both quantitatively and qualitatively.
+</div>
+
+
 <span><highlighted>(New!)</highlighted></span> **Space-Time Super-Resolution for Light Field Videos** <br>
 *Zeyu Xiao, Zhen Cheng, Zhiwei Xiong* <br>
 <span><pub>IEEE Transactions on Image Processing (T-IP), 2023</pub></span> <br> 

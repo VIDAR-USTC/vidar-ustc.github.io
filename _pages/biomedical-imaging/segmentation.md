@@ -29,7 +29,7 @@ Sparse instance-level supervision has recently been explored to address insuffic
 <span><highlighted>(New!)</highlighted></span> **PCTrans: Position-Guided Transformer with Query Contrast for Biological Instance Segmentation** <br>
 *Qi Chen, Wei Huang, Xiaoyu Liu, Jiacheng Li, Zhiwei Xiong* <br>
 <span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2023</pub></span> <br>
-[Paper](#) |
+[Paper](https://openaccess.thecvf.com/content/ICCV2023W/BIC/html/Chen_PCTrans_Position-Guided_Transformer_with_Query_Contrast_for_Biological_Instance_Segmentation_ICCVW_2023_paper.html){:target="_blank"} |
 [Code](https://github.com/qic999/PCTrans){:target="_blank"} |
 <a onclick='expandABS("chen23iccvw")'> Abstract </a>
 <div style="display: none;" class=abs id="chen23iccvw"><br>
