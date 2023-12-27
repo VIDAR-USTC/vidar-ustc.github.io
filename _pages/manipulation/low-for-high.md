@@ -15,7 +15,7 @@ __[▼ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 ## Low-Level For High-Level
 
-<span><highlighted>(New!)</highlighted></span> **Learning Fine-Grained Features for Pixel-Wise Video Correspondences** <br>
+**Learning Fine-Grained Features for Pixel-Wise Video Correspondences** <br>
 *Rui Li, Shenglong Zhou, Dong Liu* <br>
 <span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
 [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Learning_Fine-Grained_Features_for_Pixel-Wise_Video_Correspondences_ICCV_2023_paper.html){:target="_blank"} |

@@ -16,7 +16,7 @@ __[▶ Misc.](/biomedical-imaging/misc){: style="color: rgb(191, 0, 0)"}__
 ## Segmentation
 
 
-<span><highlighted>(New!)</highlighted></span> **Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation** <br>
+**Learning Cross-Representation Affinity Consistency for Sparsely Supervised Biomedical Instance Segmentation** <br>
 *Xiaoyu Liu, Wei Huang, Zhiwei Xiong, Shenglong Zhou, Yueyi Zhang, Xuejin Chen, Zheng-Jun Zha, Feng Wu* <br>
 <span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
 [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Learning_Cross-Representation_Affinity_Consistency_for_Sparsely_Supervised_Biomedical_Instance_Segmentation_ICCV_2023_paper.html){:target="_blank"} |
@@ -26,7 +26,7 @@ __[▶ Misc.](/biomedical-imaging/misc){: style="color: rgb(191, 0, 0)"}__
 Sparse instance-level supervision has recently been explored to address insufficient annotation in biomedical instance segmentation, which is easier to annotate crowded instances and better preserves instance completeness for 3D volumetric datasets compared to common semi-supervision.In this paper, we propose a sparsely supervised biomedical instance segmentation framework via cross-representation affinity consistency regularization. Specifically, we adopt two individual networks to enforce the perturbation consistency between an explicit affinity map and an implicit affinity map to capture both feature-level instance discrimination and pixel-level instance boundary structure. We then select the highly confident region of each affinity map as the pseudo label to supervise the other one for affinity consistency learning. To obtain the highly confident region, we propose a pseudo-label noise filtering scheme by integrating two entropy-based decision strategies. Extensive experiments on four biomedical datasets with sparse instance annotations show the state-of-the-art performance of our proposed framework. For the first time, we demonstrate the superiority of sparse instance-level supervision on 3D volumetric datasets, compared to common semi-supervision under the same annotation cost.
 </div>
 
-<span><highlighted>(New!)</highlighted></span> **PCTrans: Position-Guided Transformer with Query Contrast for Biological Instance Segmentation** <br>
+**PCTrans: Position-Guided Transformer with Query Contrast for Biological Instance Segmentation** <br>
 *Qi Chen, Wei Huang, Xiaoyu Liu, Jiacheng Li, Zhiwei Xiong* <br>
 <span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2023</pub></span> <br>
 [Paper](https://openaccess.thecvf.com/content/ICCV2023W/BIC/html/Chen_PCTrans_Position-Guided_Transformer_with_Query_Contrast_for_Biological_Instance_Segmentation_ICCVW_2023_paper.html){:target="_blank"} |
@@ -38,7 +38,7 @@ Recently, query-based transformer gradually draws attention in segmentation task
 </div>
 
 
-<span><highlighted>(New!)</highlighted></span> **Self-Supervised Neuron Segmentation with Multi-Agent Reinforcement Learning** <br>
+**Self-Supervised Neuron Segmentation with Multi-Agent Reinforcement Learning** <br>
 *Yinda Chen, Wei Huang, Shenglong Zhou, Qi Chen, Zhiwei Xiong* <br>
 <span><pub>International Joint Conference on Artificial Intelligence (IJCAI), 2023</pub></span> <br>
 [Paper](https://www.ijcai.org/proceedings/2023/0068.pdf){:target="_blank"} |

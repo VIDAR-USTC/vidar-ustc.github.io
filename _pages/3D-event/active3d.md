@@ -17,10 +17,22 @@ __[▶ Point Cloud](/3D-event/point-cloud){: style="color: rgb(191, 0, 0)"}__
 
 ## Active 3D
 
+<span><highlighted>(New!)</highlighted></span> **Deep Non-line-of-sight Imaging from Under-scanning Measurements** <br>
+*Yue Li, Yueyi Zhang, Juntian Ye, Feihu Xu, Zhiwei Xiong* <br>
+<span><pub>Advances in Neural Information Processing Systems (NeurIPS), 2023</pub></span> <br>
+[Paper](https://openreview.net/forum?id=JCN9YsZiwB){:target="_blank"} |
+[Code](https://github.com/Depth2World/Under-scanning_NLOS){:target="_blank"} |
+<a onclick='expandABS("li23nips")'> Abstract </a>
+<div style="display: none;" class=abs id="li23nips"><br>
+Active confocal non-line-of-sight (NLOS) imaging has successfully enabled seeing around corners relying on high-quality transient measurements. However, acquiring spatial-dense transient measurement is time-consuming, raising the question of how to reconstruct satisfactory results from under-scanning measurements (USM). The existing solutions, involving the traditional algorithms, however, are hindered by unsatisfactory results or long computing times. To this end, we propose the first deep-learning-based approach to NLOS imaging from USM. Our proposed end-to-end network is composed of two main components: the transient recovery network (TRN) and the volume reconstruction network (VRN). Specifically, TRN takes the under-scanning measurements as input, utilizes a multiple kernel feature extraction module and a multiple feature fusion module, and outputs sufficient-scanning measurements at the high-spatial resolution. Afterwards, VRN incorporates the linear physics prior of the light-path transport model and reconstructs the hidden volume representation. Besides, we introduce regularized constraints that enhance the perception of more local details while suppressing smoothing effects. The proposed method achieves superior performance on both synthetic data and public real-world data, as demonstrated by extensive experimental results with different under-scanning grids. Moreover, the proposed method delivers impressive robustness at an extremely low scanning grid (i.e., 8x8) and offers high-speed inference (i.e., 50 times faster than the existing iterative solution).
+
+</div>
+
 **Self-distilled Depth from Single-shot Structured Light with Intensity Reconstruction** <br>
 *Yue Li, Jiayong Peng, Yueyi Zhang, Zhiwei Xiong* <br>
 <span><pub>IEEE Transactions on Computational Imaging (T-CI), 2023</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/document/10163879){:target="_blank"} |
+[Code](https://github.com/Depth2World/SdDI){:target="_blank"} |
 <a onclick='expandABS("li23tci")'> Abstract </a>
 <div style="display: none;" class=abs id="li23tci"><br>
 Depth from structured light (SL) is a mainstream approach for 3D acquisition. In this paper, we propose a unique depth reconstruction method for single-shot SL systems, which reconstructs the intensity image of the scene simultaneously. The merits of our method are twofold. First, the intensity image can be used to extract scene textures under ambient light from the captured image, parsing out the projected SL pattern and thus improving depth reconstruction performance. Second, the intensity information of the scene can be useful in many applications when additional RGB cameras are not available along with the SL system. The proposed method is realized by a dual-branch deep neural network for recovering depth and intensity, respectively, where the intermediate output of the intensity branch is fed into the depth branch. Specifically, we introduce a self-distillation strategy to facilitate training the network in an unsupervised manner.

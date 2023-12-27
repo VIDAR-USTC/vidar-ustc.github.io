@@ -13,6 +13,15 @@ __[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 ## Generation & Editing
 
+<span><highlighted>(New!)</highlighted></span> **TSA2: Temporal Segment Adaptation and Aggregation for Video Harmonization** <br>
+*Zeyu Xiao, Yurui Zhu, Xueyang Fu, Zhiwei Xiong* <br>
+<span><pub>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Xiao_TSA2_Temporal_Segment_Adaptation_and_Aggregation_for_Video_Harmonization_WACV_2024_paper.html){:target="_blank"} |
+<a onclick='expandABS("xiao24wacv")'> Abstract </a>
+<div style="display: none;" class=abs id="xiao24wacv"><br>
+Video composition merges the foreground and background of different videos, presenting challenges due to variations in capture conditions (e.g., saturation, brightness, and contrast). Video harmonization is a vital process in achieving a realistic composite by seamlessly adjusting the foreground's appearance to match the background. In this paper, we propose TSA2, a novel method for video harmonization that incorporates temporal segment adaptation and aggregation. TSA2 divides the inharmonious input sequence into temporal segments, each corresponding to a different frame rate, allowing effective utilization of complementary information within each segment. The method includes the Temporal Segment Adaptation module, which learns and remaps the distribution difference between background and foreground regions, and the Temporal Segment Aggregation module, which emphasizes and aggregates cross-segment information through element-wise correlations. Experimental results demonstrate that TSA2 outperforms advanced image and video harmonization methods quantitatively and qualitatively.
+
+</div>
 
 **Reference-Guided Landmark Image Inpainting With Deep Feature Matching** <br>
 *Jiacheng Li, Zhiwei Xiong, Dong Liu* <br>

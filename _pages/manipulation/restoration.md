@@ -19,7 +19,7 @@ __[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 **Towards Interactive Self-Supervised Denoising** <br>
 *Mingde Yao, Dongliang He, Xin Li, Fu Li, Zhiwei Xiong* <br>
-<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023, Early Access</pub></span> <br>
+<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/abstract/document/10059001/){:target="_blank"} |
 [Code](https://github.com/mdyao/Interact_Self_supervised_denoising){:target="_blank"} |
 <a onclick='expandABS("yao23")'> Abstract </a>

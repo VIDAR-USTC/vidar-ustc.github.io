@@ -14,8 +14,28 @@ __[▶ Point Cloud](/3D-event/point-cloud){: style="color: rgb(191, 0, 0)"}__
 
 ## Event
 
+<span><highlighted>(New!)</highlighted></span> **Depth From Asymmetric Frame-Event Stereo: A Divide-and-Conquer Approach** <br>
+*Xihao Chen, Wenming Weng, Yueyi Zhang, Zhiwei Xiong* <br>
+<span><pub>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2024</pub></span> <br> 
+[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Chen_Depth_From_Asymmetric_Frame-Event_Stereo_A_Divide-and-Conquer_Approach_WACV_2024_paper.html){:target="_blank"} |
+<a onclick='expandABS("chen24")'> Abstract </a>
+<div style="display: none;" class=abs id="chen24"><br>
+Event cameras asynchronously measure brightness changes in a scene without motion blur or saturation, while frame cameras capture images with dense intensity and fine details at a fixed rate. The exclusive advantages of the two modalities make depth estimation from Stereo Asymmetric Frame-Event (SAFE) systems appealing. However, due to the inevitable information absence of one modality in certain challenging regions, existing stereo matching methods lose efficacy for asymmetric inputs from SAFE systems. In this paper, we propose a divide-and-conquer approach that decomposes depth estimation from SAFE systems into three sub-tasks, i.e., frame-event stereo matching, frame-based Structure-from-Motion (SfM), and event-based SfM. In this way, the above challenging regions are addressed by monocular SfM, which estimates robust depth with two views belonging to the same functioning modality. Moreover, we propose a dual sampling strategy to construct cost volumes with identical spatial locations and depth hypotheses for different sub-tasks, which enables sub-task fusion at the cost volume level. To tackle the occlusion issue raised by the sampling strategy, we further introduce a temporal fusion scheme to utilize long-term sequential inputs with multi-view information. Experimental results validate the superior performance of our method over existing solutions.
+</div>
 
-<span><highlighted>(New!)</highlighted></span> **Unsupervised Video Deraining with An Event Camera** <br>
+<span><highlighted>(New!)</highlighted></span> **Fast 3D Reconstruction via Event-based Structured Light with Spatio-temporal Coding** <br>
+*Jiacheng Fu, Yueyi Zhang, Yue Li, Jiacheng Li, Zhiwei Xiong* <br>
+<span><pub>Optics Express (OE), 2023</pub></span> <br> 
+[Paper](https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-26-44588){:target="_blank"} |
+[Demo Video](https://opg.optica.org/oe/viewmedia.cfm?uri=oe-31-26-44588&seq=v001){:target="_blank"} |
+<a onclick='expandABS("Fu23")'> Abstract </a>
+<div style="display: none;" class=abs id="Fu23"><br>
+Event-based structured light (SL) systems leverage bio-inspired event cameras, which are renowned for their low latency and high dynamics, to drive progress in high-speed structured light systems. However, existing event-based structured light methods concentrate on the independent construction of either time-domain or space-domain features for stereo matching, ignoring the spatio-temporal consistency towards depth. In this work, we build an event-based SL system that consists of a laser point projector and an event camera, and we devise a spatial-temporal coding strategy that realizes depth encoding in dual domains through a single shot. To exploit the spatio-temporal synergy, we further present STEM, a novel Spatio-Temporal Enhanced Matching approach for 3D reconstruction. STEM is comprised of two parts, the spatio-temporal enhancing (STE) algorithm and the spatio-temporal matching (STM) algorithm. Specifically, STE integrates the dual-domain information to increase the saliency of the temporal coding, providing a more robust basis for matching. STM is a stereo matching algorithm explicitly tailored to the unique characteristics of event data modality, which computes the disparity via a meticulously designed hybrid cost function. Experimental results demonstrate the superior performance of our proposed method, achieving a reconstruction rate of 16 fps and a low root mean square error of 0.56 mm at a distance of 0.72 m.
+
+</div>
+
+
+**Unsupervised Video Deraining with An Event Camera** <br>
 *Jin Wang, Wenming Weng, Yueyi Zhang, Zhiwei Xiong* <br>
 <span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
 [Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Unsupervised_Video_Deraining_with_An_Event_Camera_ICCV_2023_paper.html){:target="_blank"} |
