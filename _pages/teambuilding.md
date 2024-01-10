@@ -24,7 +24,7 @@ june2023:
     image_path: /teambuilding/tb_june2023_1.jpg
     alt: "VIDAR Team Building June 2023"
     title: "VIDAR Team Building June 2023"
-  - url: /teambuilding/tb_dec2023_2.jpg
+  - url: /teambuilding/tb_june2023_2.jpg
     image_path: /teambuilding/tb_june2023_2.jpg
     alt: "VIDAR Team Building June 2023"
     title: "VIDAR Team Building June 2023"

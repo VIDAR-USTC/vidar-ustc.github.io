@@ -15,6 +15,16 @@ __[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}__
 
 ## Enhancement & HDR
 
+**Region-Aware Portrait Retouching with Sparse Interactive Guidance** <br>
+*Huimin Zeng, Jie Huang, Jiacheng Li, Zhiwei Xiong* <br>
+<span><pub>IEEE Transactions on Multimedia (T-MM), 2024</pub></span> <br>
+[Paper](https://ieeexplore.ieee.org/abstract/document/10081407){:target="_blank"} |
+[Code](https://github.com/ZeldaM1/interactive_portrat_retouching){:target="_blank"} |
+<a onclick='expandABS("zeng23")'> Abstract </a>
+<div style="display: none;" class=abs id="zeng23"><br>
+Portrait retouching aims to improve the aesthetic quality of input portrait photos and especially requires human-region priority. The deep learning-based methods largely elevate the retouching efficiency and provide promising retouched results. However, existing portrait retouching methods focus on automatic retouching, which treats all human-regions equally and ignores users' preferences for specific individuals, thus suffering from limited flexibility in interactive scenarios. In this work, we emphasize the importance of users' intents and explore the interactive portrait retouching task. Specifically, we propose a region-aware retouching framework with two branches: an automatic branch and an interactive branch. The automatic branch involves an encoding-decoding process, which searches region candidates and performs automatic region-aware retouching without user guidance. The interactive branch encodes sparse user guidance into a priority condition vector and modulates latent features with a region selection module to further emphasize the user-specified regions. Experimental results show that our interactive branch effectively captures users' intents and generalizes well to unseen scenes with sparse user guidance, while our automatic branch also outperforms the state-of-the-art retouching methods due to improved region-awareness.
+</div>
+
 **Mutual-Guided Dynamic Network for Image Fusion** <br>
 *Yuanshen Guan, Ruikang Xu, Mingde Yao, Lizhi Wang, Zhiwei Xiong* <br>
 <span><pub>ACM International Conference on Multimedia (MM), 2023</pub></span> <br> 
@@ -35,16 +45,6 @@ Image fusion aims to generate a high-quality image from multiple images captured
 Lightness adaptation is vital to the success of image processing to avoid unexpected visual deterioration, which covers multiple aspects, e.g., low-light image enhancement, image retouching, and inverse tone mapping. Existing methods typically work well on their trained lightness conditions but perform poorly in unknown ones due to their limited generalization ability. To address this limitation, we propose a novel generalized lightness adaptation algorithm that extends conventional normalization techniques through a channel filtering design, dubbed Channel Selective Normalization (CSNorm). The proposed CSNorm purposely normalizes the statistics of lightness-relevant channels and keeps other channels unchanged, so as to improve feature generalization and discrimination. To optimize CSNorm, we propose an alternating training strategy that effectively identifies lightness-relevant channels. The model equipped with our CSNorm only needs to be trained on one lightness condition and can be well generalized to unknown lightness conditions. Experimental results on multiple benchmark datasets demonstrate the effectiveness of CSNorm in enhancing the generalization ability for the existing lightness adaptation methods. Code is available at https://github.com/mdyao/CSNorm.
 </div>
 
-
-**Region-Aware Portrait Retouching with Sparse Interactive Guidance** <br>
-*Huimin Zeng, Jie Huang, Jiacheng Li, Zhiwei Xiong* <br>
-<span><pub>IEEE Transactions on Multimedia (T-MM), 2023, Early Access</pub></span> <br>
-[Paper](https://ieeexplore.ieee.org/abstract/document/10081407){:target="_blank"} |
-[Code](https://github.com/ZeldaM1/interactive_portrat_retouching){:target="_blank"} |
-<a onclick='expandABS("zeng23")'> Abstract </a>
-<div style="display: none;" class=abs id="zeng23"><br>
-Portrait retouching aims to improve the aesthetic quality of input portrait photos and especially requires human-region priority. The deep learning-based methods largely elevate the retouching efficiency and provide promising retouched results. However, existing portrait retouching methods focus on automatic retouching, which treats all human-regions equally and ignores users' preferences for specific individuals, thus suffering from limited flexibility in interactive scenarios. In this work, we emphasize the importance of users' intents and explore the interactive portrait retouching task. Specifically, we propose a region-aware retouching framework with two branches: an automatic branch and an interactive branch. The automatic branch involves an encoding-decoding process, which searches region candidates and performs automatic region-aware retouching without user guidance. The interactive branch encodes sparse user guidance into a priority condition vector and modulates latent features with a region selection module to further emphasize the user-specified regions. Experimental results show that our interactive branch effectively captures users' intents and generalizes well to unseen scenes with sparse user guidance, while our automatic branch also outperforms the state-of-the-art retouching methods due to improved region-awareness.
-</div>
 
 
 **Bidirectional Translation Between UHD-HDR and HD-SDR Videos** <br>
