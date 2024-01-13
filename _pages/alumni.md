@@ -12,7 +12,7 @@ permalink: /alumni.html
 
 **2021**
 - **Chang Chen / 陈畅**&emsp;华为诺亚（天才少年）&emsp;<span><pub>曾在密歇根州立大学交流 曾获国家奖学金</pub></span>
-- **Xusong Chen / 陈旭松**&emsp;京东（管培生）&emsp;<span><pub>曾获专项奖学金 曾在阿里巴巴实习</pub></span>
+- **Xusong Chen / 陈旭松**&emsp;京东（管培生）&emsp;<span><pub>曾在阿里巴巴实习 曾获专项奖学金</pub></span>
 - **Yajing Liu / 刘亚婧**&emsp;京东（管培生）&emsp;<span><pub>曾在微软亚洲研究院实习</pub></span>
 
 **2022**
