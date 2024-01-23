@@ -119,7 +119,7 @@ VIDAR (Visual Information Discovery And Recovery) is a research group at Univers
 <div class="column">
 <table class= "table table-responsive">
   <tr>
-    <td><a href="/teambuilding.html" id="teambuilding"><img src="/images/teambuilding/tb_dec2023_1.jpg"  width="300"></a></td>
+    <td><a href="/teambuilding.html" id="teambuilding"><img src="/images/teambuilding/tb_june2023_1.jpg"  width="300"></a></td>
    </tr> 
    <tr>
     <td> <a href="/teambuilding.html">Activity</a> </td>

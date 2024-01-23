@@ -28,6 +28,15 @@ Self-supervised denoising frameworks have recently been proposed to learn denois
 </div>
 
 
+**Tensor-based Plenoptic Image Denoising by Integrating Super-Resolution** <br>
+*Yun Liu, Na Qi, Zhiwei Xiong* <br>
+<span><pub>Signal Processing: Image Communication, 2022</pub></span> <br>
+[Paper](https://www.sciencedirect.com/science/article/pii/S0923596522000996){:target="_blank"} |
+[Code](/code/SPIC_Code.zip){:target="_blank"} |
+<a onclick='expandABS("liu22")'> Abstract </a>
+<div style="display: none;" class=abs id="liu22"><br>
+In this paper, we propose a novel tensor-based denoising method targeting at plenoptic images which contain 4D light field (2D angular + 2D spatial) and 5D hyperspectral light field (2D angular + 2D spatial + 1D spectral). In order to make use of the high-dimension structural property of plenoptic images, we first generalize the intrinsic tensor sparsity measure to plenoptic images by extending the nonlocal similarity from the spatial dimension to the angular dimension. Second, to eliminate the sub-pixel misalignment of different views, we integrate the spatial super-resolution into denoising and exploit the spatial-angular correlation by utilizing the nonlocal similarity of the refined high-resolution central view. In the procedure of super-resolution, we utilize an intensity consistency criterion and a coordinate rationality criterion to facilitate the process of projection. The denoising performance can be boosted after back-projection performed on the refined high-resolution central view. Experimental results validate the superior performance of the proposed method on several plenoptic image datasets in terms of both subjective and objective quality.
+</div>
 
 
 **EDPN: Enhanced Deep Pyramid Network for Blurry Image Restoration** <br>
