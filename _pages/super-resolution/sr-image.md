@@ -5,84 +5,100 @@ author_profile: True
 permalink: /super-resolution/sr-image.html
 ---
 
-__[▼ Image](/super-resolution/sr-image){: style="color: rgb(191, 0, 0)"}__ 
-__[▶ Video](/super-resolution/sr-video){: style="color: rgb(191, 0, 0)"}__ 
-__[▶ Spectrum](/super-resolution/sr-spectrum){: style="color: rgb(191, 0, 0)"}__
-__[▶ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0, 0)"}__
+**[▶ 2024 New](/super-resolution/2024-New){: style="color: rgb(191, 0, 0)"}**
+**[▼ Image](/super-resolution/sr-image){: style="color: rgb(191, 0, 0)"}**
+**[▶ Video](/super-resolution/sr-video){: style="color: rgb(191, 0, 0)"}**
+**[▶ Spectrum](/super-resolution/sr-spectrum){: style="color: rgb(191, 0, 0)"}**
+**[▶ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0, 0)"}**
+
 <!-- [Others](/super-resolution/sr-other) -->
 
 ## Image
 
-
 **On the Effectiveness of Spectral Discriminators for Perceptual Quality Improvement** <br>
-*Xin Luo, Yunan Zhu, Shunxin Xu, Dong Liu* <br>
-<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br> 
-[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_On_the_Effectiveness_of_Spectral_Discriminators_for_Perceptual_Quality_Improvement_ICCV_2023_paper.html){:target="_blank"} |
-[Code](https://github.com/Luciennnnnnn/DualFormer){:target="_blank"} |
-<a onclick='expandABS("luo23")'> Abstract</a> 
+_Xin Luo, Yunan Zhu, Shunxin Xu, Dong Liu_ <br>
+<span><pub>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</pub></span> <br>
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Luo_On_the_Effectiveness_of_Spectral_Discriminators_for_Perceptual_Quality_Improvement_ICCV_2023_paper.html){:target="\_blank"} |
+[Code](https://github.com/Luciennnnnnn/DualFormer){:target="\_blank"} |
+<a onclick='expandABS("luo23")'> Abstract</a>
+
 <div style="display: none;" class=abs id="luo23"><br>
 Several recent studies advocate the use of spectral discriminators, which evaluate the Fourier spectra of images for generative modeling. However, the effectiveness of the spectral discriminators is not well interpreted yet. We tackle this issue by examining the spectral discriminators in the context of perceptual image super-resolution (i.e., GAN-based SR), as SR image quality is susceptible to spectral changes. Our analyses reveal that the spectral discriminator indeed performs better than the ordinary (a.k.a. spatial) discriminator in identifying the differences in the high-frequency range; however, the spatial discriminator holds an advantage in the low-frequency range. Thus, we suggest that the spectral and spatial discriminators shall be used simultaneously. Moreover, we improve the spectral discriminators by first calculating the patch-wise Fourier spectrum and then aggregating the spectra by Transformer. We verify the effectiveness of the proposed method twofold. On the one hand, thanks to the additional spectral discriminator, our obtained SR images have their spectra better aligned to those of the real images, which leads to a better PD tradeoff. On the other hand, our ensembled discriminator predicts the perceptual quality more accurately, as evidenced in the no-reference image quality assessment task.
 </div>
 
 **Learning Steerable Function for Efficient Image Resampling** <br>
-*Jiacheng Li, Chang Chen, Wei Huang, Zhiqiang Lang, Fenglong Song, Youliang Yan, Zhiwei Xiong* <br>
+_Jiacheng Li, Chang Chen, Wei Huang, Zhiqiang Lang, Fenglong Song, Youliang Yan, Zhiwei Xiong_ <br>
 <span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</pub></span> <br>
-[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Learning_Steerable_Function_for_Efficient_Image_Resampling_CVPR_2023_paper.html){:target="_blank"} |
-[Code](https://github.com/ddlee-cn/LeRF-MindSpore){:target="_blank"} | 
-[Intro Video](https://www.youtube.com/watch?v=6Sgnq2AD5yw){:target="_blank"} |
-[Project](https://lerf.pages.dev){:target="_blank"} |
+[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Li_Learning_Steerable_Function_for_Efficient_Image_Resampling_CVPR_2023_paper.html){:target="\_blank"} |
+[Code](https://github.com/ddlee-cn/LeRF-MindSpore){:target="\_blank"} |
+[Intro Video](https://www.youtube.com/watch?v=6Sgnq2AD5yw){:target="\_blank"} |
+[Project](https://lerf.pages.dev){:target="\_blank"} |
 <a onclick='expandABS("li23")'> Abstract </a>
+
 <div style="display: none;" class=abs id="li23"><br>
 Image resampling is a basic technique that is widely employed in daily applications. Existing deep neural networks (DNNs) have made impressive progress in resampling performance. Yet these methods are still not the perfect substitute for interpolation, due to the issues of efficiency and continuous resampling. In this work, we propose a novel method of Learning Resampling Function (termed LeRF), which takes advantage of both the structural priors learned by DNNs and the locally continuous assumption of interpolation methods. Specifically, LeRF assigns spatially-varying steerable resampling functions to input image pixels and learns to predict the hyper-parameters that determine the orientations of these resampling functions with a neural network. To achieve highly efficient inference, we adopt look-up tables (LUTs) to accelerate the inference of the learned neural network. Furthermore, we design a directional ensemble strategy and edge-sensitive indexing patterns to better capture local structures. Extensive experiments show that our method runs as fast as interpolation, generalizes well to arbitrary transformations, and outperforms interpolation significantly, e.g., up to 3dB PSNR gain over bicubic for x2 upsampling on Manga109.
 </div>
 
 **Zero-Shot Dual-Lens Super-Resolution** <br>
-*Ruikang Xu, Mingde Yao, Zhiwei Xiong* <br>
+_Ruikang Xu, Mingde Yao, Zhiwei Xiong_ <br>
 <span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</pub></span> <br>
-[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Zero-Shot_Dual-Lens_Super-Resolution_CVPR_2023_paper.html){:target="_blank"} |
-[Code](https://github.com/XrKang/ZeDuSR){:target="_blank"} | 
-[Intro Video](https://www.youtube.com/watch?v=ChHAIGyDFAI){:target="_blank"} | 
+[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Xu_Zero-Shot_Dual-Lens_Super-Resolution_CVPR_2023_paper.html){:target="\_blank"} |
+[Code](https://github.com/XrKang/ZeDuSR){:target="\_blank"} |
+[Intro Video](https://www.youtube.com/watch?v=ChHAIGyDFAI){:target="\_blank"} |
 <a onclick='expandABS("xu23")'> Abstract </a>
+
 <div style="display: none;" class=abs id="xu23"><br>
 The asymmetric dual-lens configuration is commonly available on mobile devices nowadays, which naturally stores a pair of wide-angle and telephoto images of the same scene to support realistic super-resolution (SR). Even on the same device, however, the degradation for modeling realistic SR is image-specific due to the unknown acquisition process (e.g., tiny camera motion). In this paper, we propose a zero-shot solution for dual-lens SR (ZeDuSR), where only the dual-lens pair at test time is used to learn an image-specific SR model. As such, ZeDuSR adapts itself to the current scene without using external training data, and thus gets rid of generalization difficulty. However, there are two major challenges to achieving this goal: 1) dual-lens alignment while keeping the realistic degradation, and 2) effective usage of highly limited training data. To overcome these two challenges, we propose a degradation-invariant alignment method and a degradation-aware training strategy to fully exploit the information within a single dual-lens pair. Extensive experiments validate the superiority of ZeDuSR over existing solutions on both synthesized and real-world dual-lens datasets.
 </div>
 
-
 **MuLUT: Cooperating Multiple Look-Up Tables for Efficient Super-Resolution** <br>
-*Jiacheng Li, Chang Chen, Zhen Cheng, Zhiwei Xiong* <br>
+_Jiacheng Li, Chang Chen, Zhen Cheng, Zhiwei Xiong_ <br>
 <span><pub>European Conference on Computer Vision (ECCV), 2022</pub></span> <br>
-[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19797-0_14){:target="_blank"} |
-[Code](https://github.com/ddlee-cn/MuLUT){:target="_blank"} | 
-[Intro Video](https://youtu.be/xmvQYW7dtaE){:target="_blank"} |
-[Project](https://mulut.pages.dev){:target="_blank"} |
+[Paper](https://link.springer.com/chapter/10.1007/978-3-031-19797-0_14){:target="\_blank"} |
+[Code](https://github.com/ddlee-cn/MuLUT){:target="\_blank"} |
+[Intro Video](https://youtu.be/xmvQYW7dtaE){:target="\_blank"} |
+[Project](https://mulut.pages.dev){:target="\_blank"} |
 <a onclick='expandABS("li22")'> Abstract </a>
+
 <div style="display: none;" class=abs id="li22"><br>
 The high-resolution screen of edge devices stimulates a strong demand for efficient image super-resolution (SR). An emerging research, SR-LUT, responds to this demand by marrying the look-up table (LUT) with learning-based SR methods. However, the size of a single LUT grows exponentially with the increase of its indexing capacity. Consequently, the receptive field of a single LUT is restricted, resulting in inferior performance. To address this issue, we extend SR-LUT by enabling the cooperation of Multiple LUTs, termed MuLUT. Firstly, we devise two novel complementary indexing patterns and construct multiple LUTs in parallel. Secondly, we propose a re-indexing mechanism to enable the hierarchical indexing between multiple LUTs. In these two ways, the total size of MuLUT is linear to its indexing capacity, yielding a practical method to obtain superior performance. We examine the advantage of MuLUT on five SR benchmarks. MuLUT achieves a significant improvement over SR-LUT, up to 1.1 dB PSNR, while preserving its efficiency. Moreover, we extend MuLUT to address demosaicing of Bayer-patterned images, surpassing SR-LUT on two benchmarks by a large margin.
 </div>
 
+**EDPN: Enhanced Deep Pyramid Network for Blurry Image Restoration** <br>
+_Ruikang Xu, Zeyu Xiao, Jie Huang, Yueyi Zhang, Zhiwei Xiong_ <br>
+<span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPRW), 2021</pub></span> <br>
+<span><highlighted>Winner</highlighted> of NTIRE 2021 Challenge on Image Deblurring<span> <br>
+[Paper](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/html/Xu_EDPN_Enhanced_Deep_Pyramid_Network_for_Blurry_Image_Restoration_CVPRW_2021_paper.html){:target="\_blank"} |
+[Code](https://github.com/zeyuxiao1997/EDPN){:target="\_blank"} |
+<a onclick='expandABS("xu21")'> Abstract </a>
+
+<div style="display: none;" class=abs id="xu21"><br>
+Image deblurring has seen a great improvement with the development of deep neural networks. In practice, however, blurry images often suffer from additional degradations such as downscaling and compression. To address these challenges, we propose an Enhanced Deep Pyramid Network (EDPN) for blurry image restoration from multiple degradations, by fully exploiting the self- and cross-scale similarities in the degraded image. Specifically, we design two pyramid-based modules, i.e., the pyramid progressive transfer (PPT) module and the pyramid self-attention (PSA) module, as the main components of the proposed network. By taking several replicated blurry images as inputs, the PPT module transfers both self- and cross-scale similarity information from the same degraded image in a progressive manner. Then, the PSA module fuses the above transferred features for subsequent restoration using self- and spatial-attention mechanisms. Experimental results demonstrate that our method significantly outperforms existing solutions for blurry image super-resolution and blurry image deblocking. In the NTIRE 2021 Image Deblurring Challenge, EDPN achieves the best PSNR/SSIM/LPIPS scores in Track 1 (Low Resolution) and the best SSIM/LPIPS scores in Track 2 (JPEG Artifacts).
+
+</div>
 
 **Camera Lens Super-Resolution** <br>
-*Chang Chen, Zhiwei Xiong, Xinmei Tian, Zheng-Jun Zha, Feng Wu* <br>
+_Chang Chen, Zhiwei Xiong, Xinmei Tian, Zheng-Jun Zha, Feng Wu_ <br>
 <span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019</pub></span> <br>
-[Paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper){:target="_blank"} |
-[Code & Dataset](https://github.com/ngchc/CameraSR){:target="_blank"} |
+[Paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper){:target="\_blank"} |
+[Code & Dataset](https://github.com/ngchc/CameraSR){:target="\_blank"} |
 <a onclick='expandABS("chen19")'> Abstract </a>
+
 <div style="display: none;" class=abs id="chen19"><br>
 Existing methods for single image super-resolution (SR) are typically evaluated with synthetic degradation models such as bicubic or Gaussian downsampling. In this paper, we investigate SR from the perspective of camera lenses, named as CameraSR, which aims to alleviate the intrinsic tradeoff between resolution (R) and field-of-view (V) in realistic imaging systems. Specifically, we view the R-V degradation as a latent model in the SR process and learn to reverse it with realistic low- and high-resolution image pairs. To obtain the paired images, we propose two novel data acquisition strategies for two representative imaging systems (i.e., DSLR and smartphone cameras), respectively. Based on the obtained City100 dataset, we quantitatively analyze the performance of commonly-used synthetic degradation models, and demonstrate the superiority of CameraSR as a practical solution to boost the performance of existing SR methods. Moreover, CameraSR can be readily generalized to different content and devices, which serves as an advanced digital zoom tool in realistic imaging systems.
 </div>
 
-
 ---
 
-
-__[▲ Image](/super-resolution/sr-image){: style="color: rgb(191, 0, 0)"}__ 
-__[▶ Video](/super-resolution/sr-video){: style="color: rgb(191, 0, 0)"}__ 
-__[▶ Spectrum](/super-resolution/sr-spectrum){: style="color: rgb(191, 0, 0)"}__
-__[▶ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0, 0)"}__
+**[▶ 2024 New](/super-resolution/2024-New){: style="color: rgb(191, 0, 0)"}**
+**[▲ Image](/super-resolution/sr-image){: style="color: rgb(191, 0, 0)"}**
+**[▶ Video](/super-resolution/sr-video){: style="color: rgb(191, 0, 0)"}**
+**[▶ Spectrum](/super-resolution/sr-spectrum){: style="color: rgb(191, 0, 0)"}**
+**[▶ Light Field](/super-resolution/sr-light-field){: style="color: rgb(191, 0, 0)"}**
 
 <!-- **UDNet: Up-Down Network for Compact and Efficient Feature Representation in Image Super-Resolution** <br>
 *Chang Chen, Xinmei Tian, Feng Wu, Zhiwei Xiong* <br>
-<span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2017</pub></span> <br> 
+<span><pub>IEEE International Conference on Computer Vision Workshops (ICCVW), 2017</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/document/8265339){:target="_blank"} |
 <a onclick='expandABS("chen17")'> Abstract </a>
 <div style="display: none;" class=abs id="chen17"><br>
@@ -90,11 +106,7 @@ Recently, image super-resolution (SR) using convolutional neural networks (CNNs)
 </div>
  -->
 
-
-
-
-
-<!-- 
+<!--
 **Example-Based Super-Resolution With Soft Information and Decision** <br>
 *Zhiwei Xiong, Dong Xu, Xiaoyan Sun, Feng Wu* <br>
 <span><pub>IEEE Transactions on Multimedia (T-MM), 2013</pub></span> <br>

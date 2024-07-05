@@ -6,31 +6,35 @@ main:
   #   url: /#publications
 
   - title: "Super-Resolution"
-    url: /super-resolution/sr-image
-    
+    url: /super-resolution/2024-New
+    # url: /super-resolution/sr-image
+
   - title: "Manipulation"
-    url: /manipulation/editing-generation
+    url: /manipulation/2024-New
+    # url: /manipulation/editing-generation
 
   - title: "3D & Event"
-    url: /3D-event/active3d
+    url: /3D-event/2024-New
+    # url: /3D-event/active3d
 
   # - title: "Biomedical Image Analysis"
   - title: "BioImage"
-    url: /biomedical-imaging/segmentation
+    url: /biomedical-imaging/2024-New
+    # url: /biomedical-imaging/segmentation
   # - title: "Talks"
-  #   url: /talks/    
+  #   url: /talks/
 
   # - title: "Teaching"
-  #   url: /teaching/    
-    
+  #   url: /teaching/
+
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
+
   # - title: "CV"
   #   url: /cv/
-    
+
   # - title: "Guide"
   #   url: /markdown/
