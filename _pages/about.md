@@ -19,10 +19,10 @@ VIDAR (Visual Information Discovery And Recovery) is a research group at Univers
 <div class="column">
 <table class= "table table-responsive">
   <tr>
-    <td> <a href="/super-resolution/2024-new.html" id="super-resolution"><img src="/images/topic-sr.jpg"  width="300"></a></td>
+    <td> <a href="/super-resolution/2024-New.html" id="super-resolution"><img src="/images/topic-sr.jpg"  width="300"></a></td>
    </tr> 
    <tr>
-    <td> <a href="/super-resolution/2024-new.html">Super-Resolution</a> </td>
+    <td> <a href="/super-resolution/2024-New.html">Super-Resolution</a> </td>
    </tr>
 </table>
 </div>
@@ -30,10 +30,10 @@ VIDAR (Visual Information Discovery And Recovery) is a research group at Univers
 <div class="column">
 <table class= "table table-responsive">
   <tr>
-    <td><a href="/manipulation/2024-new.html" id="manipulation"><img src="/images/topic-manipulation.jpg"  width="300"></a></td>
+    <td><a href="/manipulation/2024-New.html" id="manipulation"><img src="/images/topic-manipulation.jpg"  width="300"></a></td>
    </tr> 
    <tr>
-    <td> <a href="/manipulation/2024-new.html">Manipulation</a> </td>
+    <td> <a href="/manipulation/2024-New.html">Manipulation</a> </td>
    </tr>
 </table>
 </div>
@@ -45,10 +45,10 @@ VIDAR (Visual Information Discovery And Recovery) is a research group at Univers
 <div class="column">
 <table class= "table table-responsive">
   <tr>
-    <td> <a href="/3D-event/2024-new.html" id="3d-event"><img src="/images/topic-depth.jpg"  width="300"></a></td>
+    <td> <a href="/3D-event/2024-New.html" id="3d-event"><img src="/images/topic-depth.jpg"  width="300"></a></td>
    </tr> 
    <tr>
-    <td> <a href="/3D-event/2024-new.html">3D & Event</a> </td>
+    <td> <a href="/3D-event/2024-New.html">3D & Event</a> </td>
    </tr>
 </table>
 </div>
@@ -56,10 +56,10 @@ VIDAR (Visual Information Discovery And Recovery) is a research group at Univers
 <div class="column">
 <table class= "table table-responsive">
   <tr>
-    <td><a href="/biomedical-imaging/2024-new.html" id="biomedical"><img src="/images/topic-biomedical.jpg"  width="300"></a></td>
+    <td><a href="/biomedical-imaging/2024-New.html" id="biomedical"><img src="/images/topic-biomedical.jpg"  width="300"></a></td>
    </tr> 
    <tr>
-    <td> <a href="/biomedical-imaging/2024-new.html">Biomedical Image Analysis</a> </td>
+    <td> <a href="/biomedical-imaging/2024-New.html">Biomedical Image Analysis</a> </td>
    </tr>
 </table>
 </div>
