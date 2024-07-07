@@ -8,7 +8,7 @@ permalink: /manipulation/hdr-enhancement.html
 **[▶ 2024 New](/manipulation/2024-New){: style="color: rgb(191, 0, 0)"}**
 **[▶ Generation](/manipulation/editing-generation){: style="color: rgb(191, 0, 0)"}**
 **[▼ Enhancement](/manipulation/hdr-enhancement){: style="color: rgb(191, 0, 0)"}**
-**[▶ Denoising](/manipulation/Denoising){: style="color: rgb(191, 0, 0)"}**
+**[▶ Denoising](/manipulation/denoising){: style="color: rgb(191, 0, 0)"}**
 **[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}**
 
 ## Enhancement & HDR
@@ -94,5 +94,5 @@ In this paper, we propose a novel hybrid network with Laplacian enhancing unit f
 **[▶ 2024 New](/manipulation/2024-New){: style="color: rgb(191, 0, 0)"}**
 **[▶ Generation](/manipulation/editing-generation){: style="color: rgb(191, 0, 0)"}**
 **[▲ Enhancement](/manipulation/hdr-enhancement){: style="color: rgb(191, 0, 0)"}**
-**[▶ Denoising](/manipulation/Denoising){: style="color: rgb(191, 0, 0)"}**
+**[▶ Denoising](/manipulation/denoising){: style="color: rgb(191, 0, 0)"}**
 **[▶ Low4High](/manipulation/low-for-high){: style="color: rgb(191, 0, 0)"}**
