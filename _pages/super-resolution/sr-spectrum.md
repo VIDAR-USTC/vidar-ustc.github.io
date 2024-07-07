@@ -72,7 +72,7 @@ This paper presents a unified deep learning framework to recover hyperspectral i
 
 **Snapshot Hyperspectral Light Field Imaging** <br>
 _Zhiwei Xiong, Lizhi Wang, Huiqun Li, Dong Liu, Feng Wu_ <br>
-<span><pub>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017</pub></span> <br>
+<span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2017</pub></span> <br>
 [Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Xiong_Snapshot_Hyperspectral_Light_CVPR_2017_paper){:target="\_blank"} |
 <a onclick='expandABS("xiong17cvpr")'> Abstract </a>
 

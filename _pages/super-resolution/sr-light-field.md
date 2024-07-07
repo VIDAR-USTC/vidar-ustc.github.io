@@ -72,10 +72,7 @@ Spatial-angular separable convolution (SAS-conv) has been widely used for effici
 
 **Light Field Super-Resolution With Zero-Shot Learning** <br>
 _Zhen Cheng, Zhiwei Xiong, Chang Chen, Dong Liu, Zheng-Jun Zha_ <br>
-<span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021</pub></span> <br>
-
-<!-- <span><highlighted>Oral</highlighted><span> | -->
-
+<span><pub>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021 <highlighted>(Oral)</highlighted></pub></span> <br>
 [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Cheng_Light_Field_Super-Resolution_With_Zero-Shot_Learning_CVPR_2021_paper){:target="\_blank"} |
 [Code](https://github.com/Joechann0831/LFZSSR){:target="\_blank"} |
 <a onclick='expandABS("cheng21")'> Abstract </a>

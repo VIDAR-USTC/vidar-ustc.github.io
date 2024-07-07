@@ -35,7 +35,7 @@ june2023:
     title: "VIDAR Team Building June 2023"
 ---
 
-## Jun. 2024 Team Building
+## June 2024 Team Building
 
 {% include gallery id="june2024" %}
 

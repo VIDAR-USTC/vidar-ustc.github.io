@@ -62,7 +62,7 @@ Time-resolved non-line-of-sight (NLOS) imaging is based on the multi-bounce indi
 
 **Photon-Efficient 3D Imaging with A Non-local Neural Network** <br>
 _Jiayong Peng, Zhiwei Xiong, Xin Huang, Zheng-Ping Li, Dong Liu, Feihu Xu_ <br>
-<span><pub>European Conference on Computer Vision (ECCV), 2020</pub></span> <br>
+<span><pub>European Conference on Computer Vision (ECCV), 2020 <highlighted>(Spotlight)</highlighted></pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_14){:target="\_blank"} |
 [Code](https://github.com/JiayongO-O/PENonLocal){:target="\_blank"} |
 <a onclick='expandABS("peng20")'> Abstract </a>

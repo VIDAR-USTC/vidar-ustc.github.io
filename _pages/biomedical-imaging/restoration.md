@@ -27,7 +27,7 @@ Serial section transmission electron micro-scopy (ssTEM) reveals biological info
 
 **Isotropic Reconstruction of 3D EM Images with Unsupervised Degradation Learning** <br>
 _Shiyu Deng, Xueyang Fu, Zhiwei Xiong, Chang Chen, Dong Liu, Xuejin Chen, Qing Ling, Feng Wu_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2020</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2020</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_16){:target="\_blank"} |
 [Code](https://github.com/sydeng99/IsoRecon){:target="\_blank"} |
 <a onclick='expandABS("deng20")'> Abstract </a>

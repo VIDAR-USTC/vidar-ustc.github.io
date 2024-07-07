@@ -73,7 +73,7 @@ Emerging deep learning-based methods have enabled great progress in automatic ne
 
 **Mask Rearranging Data Augmentation for 3D Mitochondria Segmentation** <br>
 _Qi Chen, Mingxing Li, Jiacheng Li, Bo Hu, Zhiwei Xiong_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_4){:target="\_blank"} |
 [Code](https://github.com/qic999/MRDA_MitoSeg){:target="\_blank"} |
 <a onclick='expandABS("chen22")'> Abstract </a>
@@ -85,7 +85,7 @@ _Qi Chen, Mingxing Li, Jiacheng Li, Bo Hu, Zhiwei Xiong_ <br>
 
 **Efficient Biomedical Instance Segmentation via Knowledge Distillation** <br>
 _Xiaoyu Liu, Bo Hu, Wei Huang, Yueyi Zhang, Zhiwei Xiong_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_2){:target="\_blank"} |
 [Code](https://github.com/liuxy1103/BISKD){:target="\_blank"} |
 <a onclick='expandABS("liu22miccai")'> Abstract </a>
@@ -97,7 +97,7 @@ Biomedical instance segmentation is vulnerable to complicated instance morpholog
 
 **Domain Adaptive Mitochondria Segmentation via Enforcing Inter-Section Consistency** <br>
 _Wei Huang, Xiaoyu Liu, Zhen Cheng, Yueyi Zhang, Zhiwei Xiong_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_9){:target="\_blank"} |
 [Code](https://github.com/weih527/DA-ISC){:target="\_blank"} |
 <a onclick='expandABS("huang22miccai")'> Abstract </a>
@@ -146,7 +146,7 @@ Homogeneous instance segmentation aims to identify each instance in an image whe
 
 **Towards Neuron Segmentation from Macaque Brain Images: A Weakly Supervised Approach** <br>
 _Meng Dong, Dong Liu, Zhiwei Xiong, Xuejin Chen, Yueyi Zhang, Zheng-Jun Zha, Guoqiang Bi, Feng Wu_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2020</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2020</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_19){:target="\_blank"} |
 [Code](https://github.com/MeowMeowLady/Towards-Neuron-Seg-Macaque-Brain){:target="\_blank"} |
 [Dataset](https://braindata.bitahub.com/Macaque_Brain_Segmentation.html){:target="\_blank"} |
@@ -159,7 +159,7 @@ The advance of microscopic imaging technology has enabled the observation of pri
 
 **Instance Segmentation from Volumetric Biomedical Images Without Voxel-Wise Labeling** <br>
 _Meng Dong, Dong Liu, Zhiwei Xiong, Xuejin Chen, Yueyi Zhang, Zheng-Jun Zha, Guoqiang Bi, Feng Wu_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2019</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2019</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-32245-8_10){:target="\_blank"} |
 [Code](https://github.com/MeowMeowLady/InstanceSeg-Without-Voxelwise-Labeling){:target="\_blank"} |
 [Dataset](https://braindata.bitahub.com/Soma_segmentation.html){:target="\_blank"} |

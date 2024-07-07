@@ -47,7 +47,7 @@ Images captured in clinic such as MRI scans are usually in 3D formats with high 
 
 **Fast and Accurate Electron Microscopy Image Registration with 3D Convolution** <br>
 _Shenglong Zhou, Zhiwei Xiong, Chang Chen, Xuejin Chen, Dong Liu, Yueyi Zhang, Zheng-Jun Zha, Feng Wu_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2019</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2019</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-32239-7_53){:target="\_blank"} |
 [Code](https://github.com/Blcony/FAEMReg){:target="\_blank"} |
 <a onclick='expandABS("zhou19")'> Abstract </a>

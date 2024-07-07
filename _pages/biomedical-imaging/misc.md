@@ -35,7 +35,7 @@ Volumetric image compression has become an urgent task to effectively transmit a
 
 **An Advanced Deep Learning Framework for Video-Based Diagnosis of ASD** <br>
 _Miaomiao Cai, Mingxing Li, Zhiwei Xiong, Pengju Zhao, Enyao Li, Jiulai Tang_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_42){:target="\_blank"} |
 [Code & Dataset](https://github.com/xiaotaiyangcmm/DASD){:target="\_blank"} |
 <a onclick='expandABS("cai22")'> Abstract </a>
@@ -47,7 +47,7 @@ Autism spectrum disorder (ASD) is one of the most common neurodevelopmental diso
 
 **Learning Neuron Stitching for Connectomics** <br>
 _Xiaoyu Liu, Yueyi Zhang, Zhiwei Xiong, Chang Chen, Wei Huang, Xuejin Chen, Feng Wu_ <br>
-<span><pub>Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2021</pub></span> <br>
+<span><pub>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2021</pub></span> <br>
 [Paper](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_42){:target="\_blank"} |
 <a onclick='expandABS("liu21")'> Abstract </a>
 
