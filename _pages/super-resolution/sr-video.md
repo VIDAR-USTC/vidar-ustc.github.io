@@ -47,9 +47,6 @@ Compact video super-resolution (VSR) networks can be easily deployed on resource
 **Space-Time Video Super-Resolution Using Temporal Profiles** <br>
 _Zeyu Xiao, Zhiwei Xiong, Xueyang Fu, Dong Liu, Zheng-Jun Zha_ <br>
 <span><pub>ACM International Conference on Multimedia (MM), 2020</pub></span> <br>
-
-<!-- <span><highlighted>Oral</highlighted><span> | -->
-
 [Paper](https://dl.acm.org/doi/10.1145/3394171.3413667){:target="\_blank"} |
 <a onclick='expandABS("xiao20")'> Abstract </a>
 

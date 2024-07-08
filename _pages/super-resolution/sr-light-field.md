@@ -15,7 +15,7 @@ permalink: /super-resolution/sr-light-field.html
 
 **Light Field Super-Resolution Using Decoupled Selective Matching** <br>
 _Yutong Liu, Zhen Cheng, Zeyu Xiao, Zhiwei Xiong_ <br>
-<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023, Early Access</pub></span> <br>
+<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2024</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/abstract/document/10268449){:target="\_blank"} |
 [Code](https://github.com/Yutong2022/DSMNet){:target="\_blank"} |
 <a onclick='expandABS("liu23")'> Abstract </a>
