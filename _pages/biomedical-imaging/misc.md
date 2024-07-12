@@ -15,7 +15,7 @@ permalink: /biomedical-imaging/misc.html
 
 **DBVC: An End-to-End 3-D Deep Biomedical Video Coding Framework** <br>
 _Dongmei Xue, Haichuan Ma, Li Li, Dong Liu, Zhiwei Xiong, Houqiang Li_ <br>
-<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2023, Early Access</pub></span> <br>
+<span><pub>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2024</pub></span> <br>
 [Paper](https://ieeexplore.ieee.org/abstract/document/10210614){:target="\_blank"} |
 <a onclick='expandABS("xue23csvt")'> Abstract </a>
 
