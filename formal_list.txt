@@ -1,0 +1,120 @@
+Formal (Journal/Conference/Workshop) Papers
+1.	Scribble-supervised active learning for microscopy instance segmentation
+M Cai, X Liu, W Huang, S Zhou, Y Zhang, X Chen, Z Xiong
+Neurocomputing, 129169
+
+2.	Toward Dynamic Non-Line-of-Sight Imaging with Mamba Enforced Temporal Consistency
+Y Li, Y Sun, S Sun, J Ye, Y Zhang, F Xu, Z Xiong
+Advances in Neural Information Processing Systems (NeurIPS)
+
+3.	Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling
+T Li, H Feng, L Wang, L Zhu, Z Xiong, H Huang
+IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (12), 8240 …
+
+4.	Recurrent Cross-Modality Fusion for Time-of-Flight Depth Denoising
+G Dong, Y Zhang, X Sun, Z Xiong
+IEEE Transactions on Computational Imaging 10, 1626–1639
+
+5.	Non-serial Quantization-aware Deep Optics for Snapshot Hyperspectral Imaging
+L Wang, L Li, W Song, L Zhang, Z Xiong, H Huang
+IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (11), 6993 …
+
+6.	Large Deformation Registration with A Confidence-Guided Network
+X Wu, B Hu, R Xu, S Zhou, R Gao, Z Xiong
+International Workshop on Biomedical Image Registration (WBIR)
+
+7.	BioSAM: Generating SAM Prompts From Superpixel Graph for Biological Instance Segmentation
+M Cai, X Liu, Z Xiong, X Chen
+IEEE Journal of Biomedical and Health Informatics
+
+8.	Accelerated Multi-contrast MRI Reconstruction via Frequency and Spatial Mutual Learning
+Q Chen, X Xing, Z Chen, Z Xiong
+Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI)
+
+9.	Hue Guidance Network for Single Image Reflection Removal
+Y Zhu, X Fu, Z Zhang, A Liu, Z Xiong, ZJ Zha
+IEEE Transactions on Neural Networks and Learning Systems 35 (10), 13701–13712
+
+10.	Neural degradation representation learning for all-in-one image restoration
+M Yao, R Xu, Y Guan, J Huang, Z Xiong
+IEEE Transactions on Image Processing 33, 5408–5423
+
+11.	基于深度学习的光场图像重建与增强综述 (特邀)
+肖泽宇, 熊志伟, 王立志, 黄华
+Laser & Optoelectronics Progress 61 (16), 1611015-1611015-19
+
+12.	Learning Piecewise Planar Representation for RGB Guided Depth Super-Resolution
+R Xu, M Yao, Y Guan, Z Xiong
+IEEE Transactions on Computational Imaging 10, 1266–1279
+
+13.	Diffusion-Promoted HDR Video Reconstruction
+Y Guan, R Xu, M Yao, R Gao, L Wang, Z Xiong
+ECCV Workshop 2024
+
+14.	Deep multi-threshold spiking-UNet for image processing
+H Li, Y Zhang, Z Xiong, X Sun
+Neurocomputing 586, 127653
+
+15.	WASPSYN: A Challenge for Domain Adaptive Synapse Detection in Microwasp Brain Connectomes
+Y Li, W Li, Q Chen, W Huang, Y Zou, X Xiao, K Shinomiya, P Gunn, …
+IEEE Transactions on Medical Imaging 43 (11), 3719–3730 (2024)
+
+16.	Graph representation learning for large-scale neuronal morphological analysis
+J Zhao, X Chen, Z Xiong, ZJ Zha, F Wu
+IEEE Transactions on Neural Networks and Learning Systems 35 (4), 5461–5472
+
+17.	Learning Multimodal Volumetric Features for Large-Scale Neuron Tracing
+Q Chen, X Chen, C Wang, Y Liu, Z Xiong, F Wu
+AAAI Conference on Artificial Intelligence (AAAI)
+18.	Learning Complementary Maps for Light Field Salient Object Detection
+Z Xiao, J Shou, Z Xiong
+Asian Conference on Computer Vision (ACCV)
+
+19.	PQ-SAM: Post-training Quantization for Segment Anything Model
+X Liu, X Ding, L Yu, Y Xi, W Li, Z Tu, J Hu, H Chen, B Yin, Z Xiong
+European Conference on Computer Vision (ECCV)
+
+20.	Asymmetric Event-Guided Video Super-Resolution
+Z Xiao, D Kai, Y Zhang, X Sun, Z Xiong
+ACM International Conference on Multimedia (MM)
+
+21.	Unraveling Motion Uncertainty for Local Motion Deblurring
+Z Xiao, Z Lu, MB Mi, Z Xiong, X Wang
+ACM International Conference on Multimedia (MM)
+
+22.	MLP Embedded Inverse Tone Mapping
+P Liu, J Li, L Wang, ZJ Zha, Z Xiong
+ACM International Conference on Multimedia (MM)
+
+23.	Mamba-based light field super-resolution with efficient subspace scanning
+R Gao, Z Xiao, Z Xiong
+Asian Conference on Computer Vision (ACCV) 2024
+
+24.	Towards generalizable tumor synthesis
+Q Chen, X Chen, H Song, Z Xiong, A Yuille, C Wei, Z Zhou
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+25.	Event-assisted Low-Light Video Object Segmentation
+H Li, J Wang, J Yuan, Y Li, W Weng, Y Peng, Y Zhang, Z Xiong, X Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+26.	Distilling Semantic Priors from SAM to Efficient Image Restoration Models
+Q Zhang, X Liu, W Li, H Chen, J Liu, J Hu, Z Xiong, C Yuan, Y Wang
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+
+27.	ART-V: Auto-Regressive Text-to-Video Generation with Diffusion Models
+W Weng, R Feng, Y Wang, Q Dai, C Wang, D Yin, Z Zhao, K Qiu, J Bao, …
+IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+
+-----LIUDONG GROUP-----
+1. Confidence-Based Iterative Generation for Real-World Image Super-Resolution	
+ECCV 2024	
+Jialun Peng, Xin Luo, JingjingFu, Dong Liu
+
+Decomposition Betters Tracking Everything Everywhere	
+ECCV 2024	
+Rui Li, Dong Liu
+
+Exploiting Diffusion Prior for Real-World Image Dehazing with Unpaired Training	
+AAAI 2024	
+Yunwei Lan,  Zhigao Cui, Chang Liu, Jialun Peng, Nian Wang, Xin Luo，Dong Liu

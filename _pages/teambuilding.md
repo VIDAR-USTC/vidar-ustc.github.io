@@ -3,6 +3,12 @@ title: "Activity"
 excerpt: "Activity"
 author_profile: True
 permalink: /teambuilding.html
+dec2024:
+  - url: /teambuilding/tb_dec2024_1.jpg
+    image_path: /teambuilding/tb_dec2024_1.jpg
+    alt: "VIDAR Team Building Dec. 2024"
+    title: "VIDAR Team Building Dec. 2024"
+  - 
 june2024:
   - url: /teambuilding/tb_jun2024_1.jpg
     image_path: /teambuilding/tb_jun2024_1.jpg
@@ -34,6 +40,10 @@ june2023:
     alt: "VIDAR Team Building June 2023"
     title: "VIDAR Team Building June 2023"
 ---
+
+## Jan. 2025 Team Building
+
+{% include gallery id="dec2024" %}
 
 ## June 2024 Team Building
 

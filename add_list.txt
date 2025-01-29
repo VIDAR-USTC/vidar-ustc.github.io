@@ -1,0 +1,155 @@
+Scribble-supervised active learning for microscopy instance segmentation
+M Cai, X Liu, W Huang, S Zhou, Y Zhang, X Chen, Z Xiong
+Neurocomputing, 129169
+
+Toward Dynamic Non-Line-of-Sight Imaging with Mamba Enforced Temporal Consistency
+Y Li, Y Sun, S Sun, J Ye, Y Zhang, F Xu, Z Xiong
+Advances in Neural Information Processing Systems (NeurIPS)
+
+Stimulating Diffusion Model for Image Denoising via Adaptive Embedding and Ensembling
+T Li, H Feng, L Wang, L Zhu, Z Xiong, H Huang
+IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (12), 8240 …
+
+Event-boosted Deformable 3D Gaussians for Fast Dynamic Scene Reconstruction
+W Xu, W Weng, Y Zhang, R Xu, Z Xiong
+arXiv preprint arXiv:2411.16180
+
+Recurrent Cross-Modality Fusion for Time-of-Flight Depth Denoising
+G Dong, Y Zhang, X Sun, Z Xiong
+IEEE Transactions on Computational Imaging 10, 1626 - 1639
+
+Non-serial Quantization-aware Deep Optics for Snapshot Hyperspectral Imaging
+L Wang, L Li, W Song, L Zhang, Z Xiong, H Huang
+IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (11), 6993 …
+
+Large Deformation Registration with A Confidence-Guided Network
+X Wu, B Hu, R Xu, S Zhou, R Gao, Z Xiong
+International Workshop on Biomedical Image Registration (WBIR)
+
+BioSAM: Generating SAM Prompts From Superpixel Graph for Biological Instance Segmentation
+M Cai, X Liu, Z Xiong, X Chen
+IEEE Journal of Biomedical and Health Informatics
+
+Accelerated Multi-contrast MRI Reconstruction via Frequency and Spatial Mutual Learning
+Q Chen, X Xing, Z Chen, Z Xiong
+Int. Conf. Medical Image Computing and Computer-Assisted Intervention (MICCAI)
+
+Hue Guidance Network for Single Image Reflection Removal
+Y Zhu, X Fu, Z Zhang, A Liu, Z Xiong, ZJ Zha
+IEEE Transactions on Neural Networks and Learning Systems 35 (10), 13701 - 13712
+
+Generalizable Non-Line-of-Sight Imaging with Learnable Physical Priors
+S Sun, Y Li, Y Zhang, Z Xiong
+arXiv preprint arXiv:2409.14011
+
+Neural degradation representation learning for all-in-one image restoration
+M Yao, R Xu, Y Guan, J Huang, Z Xiong
+IEEE Transactions on Image Processing 33, 5408 - 5423
+
+基于深度学习的光场图像重建与增强综述 (特邀)
+肖泽宇， 熊志伟， 王立志， 黄华
+Laser & Optoelectronics Progress 61 (16), 1611015-1611015-19
+
+Learning Piecewise Planar Representation for RGB Guided Depth Super-Resolution
+R Xu, M Yao, Y Guan, Z Xiong
+IEEE Transactions on Computational Imaging 10, 1266 - 1279
+
+Multi-Granularity Semantic Revision for Large Language Model Distillation
+X Liu, Y Zhang, W Li, S Li, X Huang, H Chen, Y Tang, J Hu, Z Xiong, ...
+arXiv preprint arXiv:2407.10068
+
+LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation
+J Li, C Chen, F Song, Y Yan, Z Xiong
+arXiv preprint arXiv:2407.09935
+
+CEIA: CLIP-Based Event-Image Alignment for Open-World Event-Based Understanding
+W Xu, W Weng, Y Zhang, Z Xiong
+arXiv preprint arXiv:2407.06611
+
+Diffusion-Promoted HDR Video Reconstruction
+Y Guan, R Xu, M Yao, R Gao, L Wang, Z Xiong
+Eccv Workshop 2024
+
+Deep multi-threshold spiking-UNet for image processing
+H Li, Y Zhang, Z Xiong, X Sun
+Neurocomputing 586, 127653
+
+UniCompress: Enhancing Multi-Data Medical Image Compression with Knowledge Distillation
+R Yang, Y Chen, Z Zhang, X Liu, Z Li, K He, Z Xiong, J Suo, Q Dai
+arXiv preprint arXiv:2405.16850
+
+TokenUnify: Scalable Autoregressive Visual Pre-training with Mixture Token Prediction
+Y Chen, H Shi, X Liu, T Shi, R Zhang, D Liu, Z Xiong, F Wu
+arXiv preprint arXiv:2405.16847
+
+WASPSYN: A Challenge for Domain Adaptive Synapse Detection in Microwasp Brain Connectomes
+Y Li, W Li, Q Chen, W Huang, Y Zou, X Xiao, K Shinomiya, P Gunn, ...
+IEEE Transactions on Medical Imaging 43 (11), 3719 - 3730
+2024
+
+Incorporating Degradation Estimation in Light Field Spatial Super-Resolution
+Z Xiao, Z Xiong
+arXiv preprint arXiv:2405.07012
+
+Graph representation learning for large-scale neuronal morphological analysis
+J Zhao, X Chen, Z Xiong, ZJ Zha, F Wu
+IEEE Transactions on Neural Networks and Learning Systems 35 (4), 5461-5472
+
+Learning Multimodal Volumetric Features for Large-Scale Neuron Tracing
+Q Chen, X Chen, C Wang, Y Liu, Z Xiong, F Wu
+AAAI Conference on Artificial Intelligence (AAAI)
+
+Physics-Inspired Degradation Models for Hyperspectral Image Fusion
+J Lian, L Wang, L Zhu, R Dian, Z Xiong, H Huang
+arXiv preprint arXiv:2402.02411
+
+Diffusion-based Light Field Synthesis
+R Gao, Y Liu, Z Xiao, Z Xiong
+arXiv preprint arXiv:2402.00575
+
+Graph Relation Distillation for Efficient Biomedical Instance Segmentation
+X Liu, Y Zhang, Z Xiong, W Huang, B Hu, X Sun, F Wu
+arXiv preprint arXiv:2401.06370
+1	2024
+
+Learning Complementary Maps for Light Field Salient Object Detection
+Z Xiao, J Shou, Z Xiong
+Asian Conference on Computer Vision (ACCV)
+
+PQ-SAM: Post-training Quantization for Segment Anything Model
+X Liu, X Ding, L Yu, Y Xi, W Li, Z Tu, J Hu, H Chen, B Yin, Z Xiong
+European Conference on Computer Vision (ECCV)
+
+Asymmetric Event-Guided Video Super-Resolution
+Z Xiao, D Kai, Y Zhang, X Sun, Z Xiong
+ACM International Conference on Multimedia (MM)
+
+Unraveling Motion Uncertainty for Local Motion Deblurring
+Z Xiao, Z Lu, MB Mi, Z Xiong, X Wang
+ACM International Conference on Multimedia (MM)
+
+MLP Embedded Inverse Tone Mapping
+P Liu, J Li, L Wang, ZJ Zha, Z Xiong
+ACM International Conference on Multimedia (MM)
+
+Mamba-based light field super-resolution with efficient subspace scanning
+R Gao, Z Xiao, Z Xiong
+Asian Conference on Computer Vision (ACCV)
+4	2024
+
+Towards generalizable tumor synthesis
+Q Chen, X Chen, H Song, Z Xiong, A Yuille, C Wei, Z Zhou
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+Event-assisted Low-Light Video Object Segmentation
+H Li, J Wang, J Yuan, Y Li, W Weng, Y Peng, Y Zhang, Z Xiong, X Sun
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+Distilling Semantic Priors from SAM to Efficient Image Restoration Models
+Q Zhang, X Liu, W Li, H Chen, J Liu, J Hu, Z Xiong, C Yuan, Y Wang
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+8	2024
+
+ART-V: Auto-Regressive Text-to-Video Generation with Diffusion Models
+W Weng, R Feng, Y Wang, Q Dai, C Wang, D Yin, Z Zhao, K Qiu, J Bao, ...
+IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
